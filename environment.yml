@@ -1,12 +1,8 @@
 name: ds
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - python=3.9
-  - matplotlib
-  - numpy
-  - jupyter
-  - seaborn
   - pandas
 prefix: /usr/local/anaconda3/envs/ds
